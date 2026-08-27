@@ -1,4 +1,4 @@
-# 🔥 Aquecimento Android — Views e interação
+# Aquecimento Android — Views e interação
 
 Primeiro contato com a interface do Android: declarar componentes no XML,
 alcançá-los pelo código Kotlin e reagir ao toque do usuário.
@@ -7,7 +7,7 @@ Os dois arquivos desta pasta são o **estado final**, depois das 6 tarefas.
 Para estudar, vale seguir a ordem abaixo e rodar após cada passo — cada uma
 muda uma coisa só, justamente pra você ver o efeito isolado.
 
-## ⚙️ Como usar
+## Como usar
 
 Estes arquivos não rodam sozinhos: precisam de um projeto Android.
 No Android Studio, crie um projeto *Empty Views Activity* e substitua:
@@ -17,10 +17,10 @@ No Android Studio, crie um projeto *Empty Views Activity* e substitua:
 | `activity_main.xml` | `app/src/main/res/layout/activity_main.xml` |
 | `MainActivity.kt` | `app/src/main/java/<seu/pacote>/MainActivity.kt` |
 
-> ⚠️ Ajuste a primeira linha do `MainActivity.kt` (`package com.example.aquecimento`)
+> Ajuste a primeira linha do `MainActivity.kt` (`package com.example.aquecimento`)
 > para o pacote real do seu projeto, senão não compila.
 
-## 📋 As 6 tarefas, uma a uma
+## As 6 tarefas, uma a uma
 
 ### 1. Um botão na tela
 
@@ -109,7 +109,7 @@ componente; só precisaria de código para *ler* esse estado.
 
 Arraste com o dedo — funciona sem uma linha de Kotlin.
 
-## 💡 O que fica da lição
+## O que fica da lição
 
 As tarefas 5 e 6 são o contraste com as tarefas 2 e 3: **componente aparecer
 e funcionar sozinho é de graça no XML**. Código só entra quando você precisa

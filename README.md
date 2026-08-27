@@ -1,13 +1,19 @@
-# 📱 Exercícios de Desenvolvimento Mobile — Kotlin
+# Exercícios de Desenvolvimento Mobile — Kotlin
 
-Coletânea de exercícios de estudo em Kotlin, do básico da linguagem até
-classes, funções de ordem superior e as primeiras telas em Android.
+Repositório de estudo. Reúne os exercícios que venho fazendo enquanto
+aprendo Kotlin e desenvolvimento Android, guardados aqui para consulta e
+para acompanhar a evolução ao longo do curso.
+
+O conteúdo vai do básico da linguagem — variáveis, condicionais, laços —
+até classes, funções de ordem superior e as primeiras telas em Android.
+Cada arquivo trata de um assunto específico e é curto de propósito, para
+servir de referência rápida depois.
 
 Os exercícios de `aquecimento/` e `exercicios-2/` são independentes: cada
 arquivo tem sua própria função `main()` e roda isolado. Os de
-`aquecimento-android/` precisam de um projeto Android — veja a seção deles.
+`aquecimento-android/` precisam de um projeto Android.
 
-## 🚀 Como rodar
+## Como rodar
 
 Vale para `aquecimento/` e `exercicios-2/`. Sem precisar instalar nada,
 cole o conteúdo do arquivo no
@@ -23,7 +29,7 @@ kotlinc aquecimento/01_val_var.kt -include-runtime -d prog.jar && java -jar prog
 > Todos têm valor padrão caso nada seja digitado, então rodam liso mesmo
 > em ambientes sem entrada interativa.
 
-## 📂 Estrutura
+## Estrutura
 
 ### `aquecimento/` — fundamentos da linguagem
 
@@ -59,14 +65,8 @@ Diferente das outras pastas, esta **não roda no Kotlin Playground** — precisa
 de um projeto Android. O passo a passo está no
 [README da pasta](aquecimento-android/README.md).
 
-## 💡 Sobre os exercícios
+## Sobre os exercícios
 
 Vários exercícios resolvem o mesmo problema de duas formas — primeiro com
 laço manual, depois com as funções prontas da biblioteca padrão. A ideia é
 enxergar o que a linguagem está fazendo por baixo antes de usar o atalho.
-
-## 👥 Créditos
-
-Exercícios desenvolvidos em conjunto com
-[@anderlgleal](https://github.com/anderlgleal). O histórico de commits
-original está preservado neste repositório.
