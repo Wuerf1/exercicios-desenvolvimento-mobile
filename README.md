@@ -10,8 +10,8 @@ Cada arquivo trata de um assunto específico e é curto de propósito, para
 servir de referência rápida depois.
 
 Os exercícios de `aquecimento/` e `exercicios-2/` são independentes: cada
-arquivo tem sua própria função `main()` e roda isolado. Os de
-`aquecimento-android/` precisam de um projeto Android.
+arquivo tem sua própria função `main()` e roda isolado. Já o
+`AquecimentoApp/` é um projeto Android, que abre no Android Studio.
 
 ## Como rodar
 
@@ -54,16 +54,20 @@ kotlinc aquecimento/01_val_var.kt -include-runtime -d prog.jar && java -jar prog
 | `ex2_5_catalogo_produtos.kt` | `data class` + funções de ordem superior |
 | `ex2_6_sistema_alunos.kt` | Classes, `companion object` e listas mutáveis |
 
-### `aquecimento-android/` — primeiro contato com Android
+### `AquecimentoApp/` — primeiro contato com Android
+
+Projeto Android completo, com os 6 exercícios de aquecimento resolvidos:
+`Button` com id e listener de clique, `Toast`, `CheckBox`, `Switch` e
+`SeekBar`.
 
 | Arquivo | Conteúdo |
 |---|---|
-| `activity_main.xml` | Layout com `Button`, `CheckBox`, `Switch` e `SeekBar` |
-| `MainActivity.kt` | `findViewById`, `setOnClickListener` e `Toast` |
+| `app/src/main/res/layout/activity_main.xml` | Layout com os componentes da tela |
+| `app/src/main/java/.../MainActivity.kt` | `findViewById`, `setOnClickListener` e `Toast` |
 
-Diferente das outras pastas, esta **não roda no Kotlin Playground** — precisa
-de um projeto Android. O passo a passo está no
-[README da pasta](aquecimento-android/README.md).
+Diferente das outras pastas, esta **não roda no Kotlin Playground** — abre no
+Android Studio. As instruções estão no
+[README do projeto](AquecimentoApp/README.md).
 
 ## Sobre os exercícios
 

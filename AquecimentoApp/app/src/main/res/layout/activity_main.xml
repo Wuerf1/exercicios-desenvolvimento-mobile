@@ -3,33 +3,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp">
 
-    <!-- Tarefas 1, 2 e 4: botão com texto, com id, ocupando a largura toda -->
+    <!-- Exercício 1, 2, 3 e 4: Button com id, listener de clique e largura match_parent -->
     <Button
         android:id="@+id/btnTeste"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Clique" />
 
-    <!-- Tarefa 5: componentes de marcar/desmarcar, sem código por enquanto -->
+    <!-- Exercício 5: CheckBox e Switch -->
     <CheckBox
-        android:id="@+id/chkTeste"
+        android:id="@+id/checkTeste"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aceito os termos" />
+        android:layout_marginTop="16dp"
+        android:text="Marcar opção" />
 
     <Switch
-        android:id="@+id/swTeste"
+        android:id="@+id/switchTeste"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Modo escuro" />
+        android:layout_marginTop="8dp"
+        android:text="Ativar" />
 
-    <!-- Tarefa 6: barra de 0 a 10, arrastável sem nenhum código -->
+    <!-- Exercício 6: SeekBar com max 10 -->
     <SeekBar
         android:id="@+id/seekTeste"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:max="10" />
 
 </LinearLayout>
