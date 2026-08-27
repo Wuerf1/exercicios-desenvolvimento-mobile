@@ -1,12 +1,16 @@
 # 📱 Exercícios de Desenvolvimento Mobile — Kotlin
 
 Coletânea de exercícios de estudo em Kotlin, do básico da linguagem até
-classes e funções de ordem superior. Todos os arquivos são independentes e
-têm sua própria função `main()` — dá pra rodar qualquer um isoladamente.
+classes, funções de ordem superior e as primeiras telas em Android.
+
+Os exercícios de `aquecimento/` e `exercicios-2/` são independentes: cada
+arquivo tem sua própria função `main()` e roda isolado. Os de
+`aquecimento-android/` precisam de um projeto Android — veja a seção deles.
 
 ## 🚀 Como rodar
 
-Sem precisar instalar nada, cole o conteúdo do arquivo no
+Vale para `aquecimento/` e `exercicios-2/`. Sem precisar instalar nada,
+cole o conteúdo do arquivo no
 [Kotlin Playground](https://play.kotlinlang.org) e clique em *Run*.
 
 Se tiver o compilador local:
@@ -43,6 +47,17 @@ kotlinc aquecimento/01_val_var.kt -include-runtime -d prog.jar && java -jar prog
 | `ex2_4_contando_letras.kt` | Contagem de ocorrências de letra — laço manual x `count {}` |
 | `ex2_5_catalogo_produtos.kt` | `data class` + funções de ordem superior |
 | `ex2_6_sistema_alunos.kt` | Classes, `companion object` e listas mutáveis |
+
+### `aquecimento-android/` — primeiro contato com Android
+
+| Arquivo | Conteúdo |
+|---|---|
+| `activity_main.xml` | Layout com `Button`, `CheckBox`, `Switch` e `SeekBar` |
+| `MainActivity.kt` | `findViewById`, `setOnClickListener` e `Toast` |
+
+Diferente das outras pastas, esta **não roda no Kotlin Playground** — precisa
+de um projeto Android. O passo a passo está no
+[README da pasta](aquecimento-android/README.md).
 
 ## 💡 Sobre os exercícios
 

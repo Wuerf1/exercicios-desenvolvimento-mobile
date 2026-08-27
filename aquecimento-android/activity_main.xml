@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tarefas 1, 2 e 4: botão com texto, com id, ocupando a largura toda -->
+    <Button
+        android:id="@+id/btnTeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clique" />
+
+    <!-- Tarefa 5: componentes de marcar/desmarcar, sem código por enquanto -->
+    <CheckBox
+        android:id="@+id/chkTeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceito os termos" />
+
+    <Switch
+        android:id="@+id/swTeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo escuro" />
+
+    <!-- Tarefa 6: barra de 0 a 10, arrastável sem nenhum código -->
+    <SeekBar
+        android:id="@+id/seekTeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10" />
+
+</LinearLayout>
