@@ -1,4 +1,4 @@
-# 🧩 Exercícios em Kotlin
+# 📱 Exercícios de Desenvolvimento Mobile — Kotlin
 
 Coletânea de exercícios de estudo em Kotlin, do básico da linguagem até
 classes e funções de ordem superior. Todos os arquivos são independentes e
